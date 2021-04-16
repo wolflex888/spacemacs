@@ -32,3 +32,6 @@
   (spacemacs/setup-startup-hook)
   (require 'server)
   (unless (server-running-p) (server-start)))
+
+(global-undo-tree-mode)
+(evil-set-undo-system 'undo-tree)
