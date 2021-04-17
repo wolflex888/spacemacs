@@ -35,3 +35,4 @@
 
 (global-undo-tree-mode)
 (evil-set-undo-system 'undo-tree)
+(load "~/.emacs.d/scripts/eshell-customize.el")
